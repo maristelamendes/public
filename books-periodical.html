@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inclusão de Livros</title>
+</head>
+<body>
+  <header>
+    <h1>Inclusão de Livro no Cadastro:</h1>
+    <p>
+      Escolha algum dos Livros selecionados:
+    </p>
+  </header>
+
+  <form>
+    <label>livros:</label>
+    <select id="title" >
+      <option value="">Selecione...</option>
+      <option value="a">Diario de um Banana;
+          "Dias de cão. Date:2005, 03, 03; Jeff Kinney."
+      </option>
+      <option value="s">Como eu era Antes de Você;
+          "Para Charlies, com Amor. Date:2006, 04,01; Jojo Moyes."
+      </option>
+      <option value="o">Extraordinario;
+          "Não julgue um menino pela cara. Date:2013, 12, 07; R.J. Palacio."
+      </option>
+    </select><br><br>
+    <label>Periodico:</label><br>
+    <select id="" >
+      <option value="">Selecione...</option>
+      <option value="a">edição de Trilogia, volume: 04, serie: 4/12</option>
+      <option value="s">edição de Trilogia, volume: 01,  serie: 1/3</option>
+      <option value="m">edição Best-Seller, volume: unico, serie: unica</option>
+    </select><br><br>
+
+    <button>incluir Livro ou Periodico</button>
+  </form>
+
+  <div id="resposta"></div>
+
+  <script src="books-periodical.ts" type="module"></script>
+</body>
+</html>

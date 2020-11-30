@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Pessoas</title>
+
+  <form novalidate>
+    <input id="nome" placeholder="Informe seu nome completo">
+    <input id="email" type="email" placeholder="Informe seu e-mail">
+    <input id="nascimento" type="date" placeholder="Informe sua data de nascimento">
+
+    <select id="sexo" required>
+      <option value="">Selecione o sexo</option>
+      <option value="f">Feminino</option>
+      <option value="m">Masculino</option>
+    </select>
+
+    <div>
+      <div class="checkbox">
+        <input id="termosAceitos" type="checkbox">
+        <label for="termosAceitos">
+      </div>
+
+      <label for="termosAceitos">Aceito os termos e condições </label>
+    </div>
+
+    <button>Verificar Documentos</button>
+
+  <div id="resposta"></div>
+
+  <script src="Person.js" type="module"></script>
+</body>
+</html>
